@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MEFCalculator", "MEFCalcula
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{C60C41B0-96E7-4BA7-A218-6CC62A576CBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Core", "Calculator.Core\Calculator.Core.csproj", "{18CCB7C6-E2F5-4572-855D-8FBA0E5CA453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operation.Sum", "Operation.Sum\Operation.Sum.csproj", "{693333AA-534B-4375-99CB-02A67D119345}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,9 +21,20 @@ Global
 		{B2F47219-61CD-41F7-AAD3-7799B705B6BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2F47219-61CD-41F7-AAD3-7799B705B6BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2F47219-61CD-41F7-AAD3-7799B705B6BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18CCB7C6-E2F5-4572-855D-8FBA0E5CA453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CCB7C6-E2F5-4572-855D-8FBA0E5CA453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CCB7C6-E2F5-4572-855D-8FBA0E5CA453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CCB7C6-E2F5-4572-855D-8FBA0E5CA453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693333AA-534B-4375-99CB-02A67D119345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693333AA-534B-4375-99CB-02A67D119345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693333AA-534B-4375-99CB-02A67D119345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693333AA-534B-4375-99CB-02A67D119345}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{693333AA-534B-4375-99CB-02A67D119345} = {C60C41B0-96E7-4BA7-A218-6CC62A576CBB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {742180D3-C271-41C7-9640-57727B28DD29}

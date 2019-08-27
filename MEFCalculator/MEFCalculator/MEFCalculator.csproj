@@ -6,7 +6,29 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Extensions\Calculator.Core.dll" />
+    <None Remove="Extensions\Operation.Sum.deps.json" />
+    <None Remove="Extensions\Operation.Sum.dll" />
+    <None Remove="Extensions\Operation.Sum.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Extensions\Calculator.Core.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Extensions\Operation.Sum.deps.json" />
+    <Content Include="Extensions\Operation.Sum.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Extensions\Operation.Sum.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="System.ComponentModel.Composition" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Calculator.Core\Calculator.Core.csproj" />
   </ItemGroup>
 
 </Project>

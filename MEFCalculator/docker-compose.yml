@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mefcalculator:
+    image: ${DOCKER_REGISTRY-}mefcalculator
+    build:
+      context: .
+      dockerfile: MEFCalculator/Dockerfile

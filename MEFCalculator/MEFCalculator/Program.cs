@@ -1,6 +1,9 @@
 ﻿using System;
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
+using System.Diagnostics;
+using System.IO;
+using System.Xml.Schema;
 using Calculator.Core;
 
 namespace MEFCalculator
@@ -18,7 +21,7 @@ namespace MEFCalculator
             var catalog = new AggregateCatalog();
             // Adds all the parts found in the same assembly as the Program class.
             catalog.Catalogs.Add(new AssemblyCatalog(typeof(Program).Assembly));
-            catalog.Catalogs.Add(new DirectoryCatalog(@".\Extensions"));
+            catalog.Catalogs.Add(new DirectoryCatalog(Path.Combine(".","Extensions")));
             // Create the CompositionContainer with the parts in the catalog.
             _container = new CompositionContainer(catalog);
 

@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operation.Sum", "Operation.
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{3FFE9767-CCCC-46A6-8D28-B52B4C9FC967}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{04ACCB8D-99AE-4721-B3B5-1039AB048D4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operation.Sum.UnitTests", "..\Operation.Sum.UnitTests\Operation.Sum.UnitTests.csproj", "{92EAF67B-E34A-4021-9B3C-B6F26DBBF17F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,12 +39,17 @@ Global
 		{3FFE9767-CCCC-46A6-8D28-B52B4C9FC967}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FFE9767-CCCC-46A6-8D28-B52B4C9FC967}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FFE9767-CCCC-46A6-8D28-B52B4C9FC967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92EAF67B-E34A-4021-9B3C-B6F26DBBF17F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92EAF67B-E34A-4021-9B3C-B6F26DBBF17F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92EAF67B-E34A-4021-9B3C-B6F26DBBF17F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92EAF67B-E34A-4021-9B3C-B6F26DBBF17F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{693333AA-534B-4375-99CB-02A67D119345} = {C60C41B0-96E7-4BA7-A218-6CC62A576CBB}
+		{92EAF67B-E34A-4021-9B3C-B6F26DBBF17F} = {04ACCB8D-99AE-4721-B3B5-1039AB048D4C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {742180D3-C271-41C7-9640-57727B28DD29}

@@ -14,7 +14,7 @@ namespace Operation.Sum.UnitTests
         [TestCase(-1, 1, 0)]
         public void SumIntegersTest(int operatorA, int operatorB, int result)
         {
-            IOperation sum = new Add();
+            IOperation sum = new AddOperation();
 
             var actualResult = sum.Operate(operatorA, operatorB);
 

@@ -9,6 +9,9 @@
 
   <ItemGroup>
     <None Remove="Extensions\Calculator.Core.dll" />
+    <None Remove="Extensions\Operation.Multiply.deps.json" />
+    <None Remove="Extensions\Operation.Multiply.dll" />
+    <None Remove="Extensions\Operation.Multiply.pdb" />
     <None Remove="Extensions\Operation.Sum.deps.json" />
     <None Remove="Extensions\Operation.Sum.dll" />
     <None Remove="Extensions\Operation.Sum.pdb" />
@@ -18,6 +21,11 @@
     <Content Include="Extensions\Calculator.Core.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Extensions\Operation.Multiply.deps.json" />
+    <Content Include="Extensions\Operation.Multiply.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Extensions\Operation.Multiply.pdb" />
     <Content Include="Extensions\Operation.Sum.deps.json" />
     <Content Include="Extensions\Operation.Sum.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

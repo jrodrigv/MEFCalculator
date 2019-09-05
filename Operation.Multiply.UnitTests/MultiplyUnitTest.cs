@@ -4,7 +4,7 @@ using Operation.Multiply;
 
 namespace Tests
 {
-    public class MultiplyUnitTest()
+    public class MultiplyUnitTest
     {
         [SetUp]
         public void Setup()

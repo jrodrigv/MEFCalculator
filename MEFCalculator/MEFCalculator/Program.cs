@@ -34,11 +34,13 @@ namespace MEFCalculator
         }
 
         
-        static void Main(string[] args)
+        static async System.Threading.Tasks.Task Main(string[] args)
         {
             // Composition is performed in the constructor.
             var p = new Program();
             String s;
+
+            Console.WriteLine(await p.Calculator.AvailableOperationsAsync());
             Console.WriteLine("Enter Command:");
             while (true)
             {
